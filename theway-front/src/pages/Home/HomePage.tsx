@@ -1,9 +1,9 @@
 import React from "react";
 import "./HomePage.css";
-import NavBar from "../../components/HomeComponents/NavBar/NavBar";
 import HomeRent from "../../components/HomeComponents/HomeRent/HomeRent";
 import PopularCars from "../../components/HomeComponents/PopularCars/PopularCars";
 import Baseboard from "../../components/HomeComponents/Baseboard/Baseboard";
+import NavBar from "../../components/HomeComponents/NavBar/NavBar";
 
 const HomePage: React.FC = () => {
   return (

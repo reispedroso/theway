@@ -1,0 +1,229 @@
+.signup-container {
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .create {
+      margin-top: 100px;
+      width: 500px;
+      height: 90px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .create h1 {
+      color: #00213d;
+      font-size:40px;
+      font-weight: 600;
+  }
+  
+  .signup-logo img {
+    width: 150px;
+    padding-top: 20px;
+  }
+  
+  .inputs-container {
+    margin-top: 40px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .email {
+    width: 360px;
+    height: 50px;
+    background-color: #eef6fd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid #00213d;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .email-icon {
+    background-color: #00213d;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .email-input {
+    width: 100%;
+  }
+  
+  .email-input input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    color: #00213d;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .email-input input::placeholder {
+    color: #819fba;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .password {
+    margin-top: 20px;
+    width: 360px;
+    height: 50px;
+    background-color: #eef6fd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid #00213d;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .password-icon {
+    background-color: #00213d;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .password-icon img {
+      width: 16px;
+      
+  }
+  .password-input {
+    width: 100%;
+  }
+  
+  .password-input input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    color: #00213d;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .password-input input::placeholder {
+      color: #819fba;
+      font-size: 15px;
+      font-weight: 400;
+    }
+  
+    .button-container {
+      margin-top: 30px;
+      width: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      background-color: #3596e8;
+      height: 50px;
+      border-radius: 10px;
+  }
+  
+  .button-container button {
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      outline: none;
+      border: none;
+      color: #eef6fd;
+      font-size: 15px;
+      font-weight: 500;
+      cursor: pointer;
+  }
+  
+  .info-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      margin-left: 40px;
+      margin-top: 10px;
+  }
+  
+  .no-account p {
+      margin-top: 10px;
+      color: #00213d;
+      font-size: 14px;
+      font-weight: 500;
+  
+  }
+  
+  .sgn {
+      text-decoration: none;
+      color: #3596e8;
+      font-weight: 600;
+  }
+
+
+  .user {
+    width: 360px;
+    height: 50px;
+    background-color: #eef6fd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid #00213d;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .user-icon {
+    background-color: #00213d;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .user-input {
+    width: 100%;
+  }
+  
+  .user-input input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    color: #00213d;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .user-input input::placeholder {
+    color: #819fba;
+    font-size: 15px;
+    font-weight: 400;
+  }
