@@ -1,0 +1,60 @@
+.baseboard-container {
+  height: 100px;
+  width: 100%;
+  background-color: #00213d;
+}
+
+.info-bs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-bs h1 {
+  color: #eef6fd;
+  font-size: 13px;
+  margin: 7px;
+  cursor: pointer;
+}
+
+.info-bs h3 {
+  color: #3596e8;
+  font-size: 13px;
+  margin: 7px;
+  cursor: pointer;
+}
+
+.zap {
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.zap h1 {
+  color: #3596e8;
+  font-size: 13px;
+  cursor: default;
+}
+
+.zap h2 {
+  color: #eef6fd;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.made-by
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    width: 100%;
+    height: 30px;
+    background-color: #3596e8;
+}
+
+.made-by h1 {
+    font-size: 10px;
+    color: #124d7e;
+    font-weight: 400;
+}

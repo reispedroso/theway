@@ -1,0 +1,67 @@
+.popular-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  height: 400px;
+}
+
+.popular-container h1 {
+  color: #00213D;
+}
+
+/* 819FBA */
+/* 3596E8 */
+
+.car-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.car-img {
+  width: 230px;
+  height: 230px;
+}
+
+.title-review {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.title-review h1 {
+  color: #3596e8;
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+.title-review h2 {
+  color: #DB5C2C;
+  padding-left: 10px;
+
+  font-size: 16px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  padding: 4px;
+}
+
+.info h2 {
+    font-weight: 500;
+    font-size: 15px;
+    color: #819FBA ;
+
+}
+
+.info span {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    color: #819FBA;
+}

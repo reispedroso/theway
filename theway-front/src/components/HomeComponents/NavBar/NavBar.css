@@ -1,0 +1,21 @@
+.navbar-container {
+  width: 100%px;
+  height: 60px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+
+  background: #3596e8;
+}
+
+.menu img {
+  cursor: pointer;
+  width: 40px;
+}
+
+.navbar-logo img {
+  cursor: pointer;
+  width: 105px;
+}
